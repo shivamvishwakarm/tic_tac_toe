@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback </title>
+    <link rel="stylesheet" href="feedback.css">
+    <!-- navbar font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"> Gamers.com </a></li>
+            <li id="feedback">
+                <a href="feedback.html"><img src="feedback.png" alt="feedback"></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="form_container">
+        <h2>Give your feedback here</h2>
+        <form class="form" action="javascript:sendmail()" method="post">
+            <input id="name" type="text" name="name" placeholder="Name">
+            <input id="gmail" type="gmail" name="gmail" placeholder="Gmail">
+            <input id="mobile-number" type="number" name="number" placeholder="Mobile No.">
+            <input id="subject" type="text" name="subject" placeholder="Subject">
+            <textarea id="message" name="message" id="message" cols="30" rows="10" placeholder="Your Message "></textarea>
+            <input type="button" id="btn" value="Send">
+
+        </form>
+    </div>
+
+    i
+</body>
+
+</html>
